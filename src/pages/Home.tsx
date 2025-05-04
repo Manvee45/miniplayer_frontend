@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button";
+import Hero from "@/components/Hero";
+import ImageCard from "@/components/ImageCard";
 
 const Home = () => {
   return (
     <>
-      <Button> Hii </Button>
+      <div>
+        <Hero />
+        <ImageCard />
+      </div>
     </>
   );
 };
